@@ -1,0 +1,18 @@
+{
+  "name": "frontui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/index.js",
+  "scripts": {
+    "dev": "vite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "snabbdom": "^3.5.1",
+    "typescript": "^5.2.2",
+    "uimodule": "1.0.0",
+    "vite": "^4.5.0"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "uimodule",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "AnandaKrishnan <ananda2000krishnan@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "dist/uimodule.ts",
+  "typings": "dist/uimodule.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "dev": "tsc",
+    "test": "node ./__tests__/uimodule.test.js"
+  },
+  "dependencies": {
+    "snabbdom": "^3.5.1"
+  }
+}
